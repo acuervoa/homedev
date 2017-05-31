@@ -56,10 +56,8 @@ $devtools = array(
 */
     
 $siteoptions = array(
-
-    //  'dirname' => 'Display Name',
-//    'dirname' => array( 'displayname' => 'DisplayName', 'adminurl' => 'http://something/admin' ),
-
+      'dirname' => 'Display Name',
+      'dirname' => array( 'displayname' => 'DisplayName', 'adminurl' => 'http://something/admin' ),
     );
 
 /*

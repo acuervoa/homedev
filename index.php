@@ -12,25 +12,17 @@
     </head>
 
     <body>
-
         <div class="canvas">
-
             <header>
-
                 <h1>My Local Sites</h1>
-
                 <nav>
                     <ul>
-<?php
-                        foreach ($devtools as $tool) {
-                            printf('<li><a href="%1$s" target="_blank">%2$s</a></li>', $tool['url'], $tool['name']);
-                        }
-?>
+                    <?php foreach($devtools as $tool): ?>
+                       <li><a href="<?= $tool['url'] ?>" target="_blank"><?= $tool['name'] ?></a></li>
+                    <?php endforeach ?>
                     </ul>
                 </nav>
-
             </header>
-
             <content class="cf">
 <?php
             foreach ($dir as $d) {

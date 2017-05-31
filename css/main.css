@@ -50,7 +50,6 @@ li a {
 
 
 .icon, .sites img {
-    float: right;
     font-size: .7rem;
     display: inline-block;
     text-indent: -10000px;
@@ -77,6 +76,28 @@ li a {
     background-color: #21759a;
     background-image: url('/img/icon-wp.png');
 }
+
+.drupal {
+    background-color: #21759a;
+    background-image: url('/img/icon-drupal.png');
+}
+
+.laravel {
+    background-color: #ffffff;
+    background-image: url('/img/icon-laravel.png');
+}
+
+.php {
+    background-color: #ffa500;
+    background-image: url('/img/icon-php.png');
+}
+
+.gear {
+    background-color: #ffffff;
+    background-image: url('/img/icon-gear.png');
+}
+
+
 
 .site {
     padding: 0 10px;
